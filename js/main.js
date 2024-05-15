@@ -78,7 +78,7 @@ for (let i = 0; i < 10; i++) {
 
     // Si el nuevo círculo no se superpone con ningún otro, lo agregamos
     if (!overlapping) {
-        let miCirculo = new Circle(randomX, randomY, randomRadius, "blue", (i + 1).toString(), 1);
+        let miCirculo = new Circle(randomX, randomY, randomRadius, "blue", (i + 1).toString(), 3);
         miCirculos.push(miCirculo);
     }
 }
